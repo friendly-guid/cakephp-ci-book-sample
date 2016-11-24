@@ -1,0 +1,15 @@
+#
+# Cookbook Name:: phpenv
+# Recipe:: default
+#
+# Copyright 2016, YOUR_COMPANY_NAME
+#
+# All rights reserved - Do Not Redistribute
+#
+
+# 配列で列挙しているパッケージをインストールする
+%w{curl php5 php5-cli php5-fpm php5-mysql php-pear php5-curl php5-xsl php5-mcrypt mysql-server-5.5 nginx git}.each do |p|
+  package p do
+    action :install
+  end
+end
