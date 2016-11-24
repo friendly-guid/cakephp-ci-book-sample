@@ -47,6 +47,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
         recipe[phpenv::default]
         recipe[phpenv::composer]
 	recipe[phpenv::develop]
+	recipe[capistrano]
       ]
     end
   end
