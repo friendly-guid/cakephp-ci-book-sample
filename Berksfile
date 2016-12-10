@@ -8,3 +8,7 @@ cookbook "hostsfile"
 cookbook "capistrano", path: "./site-cookbooks/capistrano"
 
 cookbook "jenkins", path: "./site-cookbooks/jenkins"
+
+cookbook "user-package", path: "./site-cookbooks/user-package"
+
+cookbook "mysql", path: "./site-cookbooks/mysql"

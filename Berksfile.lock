@@ -5,8 +5,12 @@ DEPENDENCIES
   hostsfile
   jenkins
     path: site-cookbooks/jenkins
+  mysql
+    path: site-cookbooks/mysql
   phpenv
     path: site-cookbooks/phpenv
+  user-package
+    path: site-cookbooks/user-package
 
 GRAPH
   apt (5.0.0)
@@ -15,5 +19,7 @@ GRAPH
   compat_resource (12.16.2)
   hostsfile (2.4.5)
   jenkins (0.1.0)
+  mysql (0.1.0)
   phpenv (0.1.0)
     hostsfile (>= 0.0.0)
+  user-package (0.1.0)
