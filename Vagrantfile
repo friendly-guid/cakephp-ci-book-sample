@@ -44,12 +44,12 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
       }
       chef.run_list = %w[
         recipe[apt]
-	recipe[user-package::default]
-	recipe[mysql::default]
         recipe[phpenv::default]
         recipe[phpenv::composer]
 	recipe[phpenv::develop]
 	recipe[capistrano]
+	recipe[user-package::default]
+	recipe[mysql::default]
       ]
     end
   end
@@ -85,6 +85,8 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
         recipe[capistrano]
 	recipe[jenkins::default]
 	recipe[jenkins::plugin]
+	recipe[user-package::default]
+	recipe[mysql::default]
       ]
     end
   end

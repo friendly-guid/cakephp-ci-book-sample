@@ -10,12 +10,6 @@ execute 'get-update-json'  do
   action :run
 end
 
-%w{git checkstyle cloverphp dry htmlpublisher jdepend plot pmd violations xunit phing}.each do |plugin_name|
-  e = execute "sudo /usr/bin/java -jar /var/lib/jenkins/jenkins-cli.jar -s http://localhost:8080 install-plugin ".concat(plugin_name) do
-    action :run
-  end
-end
-
 service "jenkins" do
   action :restart
 end
