@@ -1,0 +1,7 @@
+{
+    "require": {
+        "behat/mink-selenium-driver": "^1.2"
+    },
+    "require-dev": {
+    }
+}

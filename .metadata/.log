@@ -1,0 +1,31 @@
+!SESSION 2016-12-13 17:21:11.407 -----------------------------------------------
+eclipse.buildId=4.4.0.I20140606-1215
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=ja_JP
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/tomoyuki/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/tomoyuki/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2016-12-13 17:22:25.129
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jface 2 0 2016-12-13 17:22:27.357
+!MESSAGE キーバインドの競合が発生しました。 通常のアクセラレーター操作を妨げる可能性があります。
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-12-13 17:22:27.357
+!MESSAGE A conflict occurred for ALT+COMMAND+Q P:
+Binding(ALT+COMMAND+Q P,
+	ParameterizedCommand(Command(org.eclipse.php.ui.explorer,PHP スクリプト・エクスプローラー,
+		Shows the Script Explorer,
+		Category(org.eclipse.ui.category.views,ビュー,ビューを開くコマンド,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1946d6b6,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+Binding(ALT+COMMAND+Q P,
+	ParameterizedCommand(Command(org.eclipse.ui.views.showView,ビューの表示,
+		特定のビューを表示します,
+		Category(org.eclipse.ui.category.views,ビュー,ビューを開くコマンド,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@785057cb,
+		[Lorg.eclipse.e4.ui.internal.workbench.Parameter;@72e8928a,,true),[Lorg.eclipse.core.commands.Parameterization;@3ef8ca7d),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
