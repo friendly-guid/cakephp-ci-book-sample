@@ -4,8 +4,9 @@ use Behat\Behat\Context\Step\Given,
 	Behat\Behat\Context\Step\Then;
 App::uses('Fabricate', 'Fabricate.Lib');
 $steps->When('/^以下の内容で記事を投稿する$/', function($world, $table) {
-	return [
-		new When('"' . Router::url(['controller' => 'posts', 'action' => 'add']) . '" を表示している'),
+
+    return [
+		new When('"' . Router::url(['controller' => 'posts', 'action' => 'add'], true) . '" を表示している'),
 		new When('次のように入力する:', $table),
 		new When('"投稿" ボタンをクリックする'),
 	];
