@@ -5,6 +5,8 @@ DEPENDENCIES
   hostsfile
   jenkins
     path: site-cookbooks/jenkins
+  my-cnf
+    path: site-cookbooks/my-cnf
   mysql
     path: site-cookbooks/mysql
   phpenv
@@ -19,6 +21,7 @@ GRAPH
   compat_resource (12.16.2)
   hostsfile (2.4.5)
   jenkins (0.1.0)
+  my-cnf (0.1.0)
   mysql (0.1.0)
   phpenv (0.1.0)
     hostsfile (>= 0.0.0)

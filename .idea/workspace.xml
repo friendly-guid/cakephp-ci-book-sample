@@ -2,23 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="78cbe3bf-fbf0-483b-a97b-a64d56937c36" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.vagrant/machines/ci/virtualbox/action_provision" afterPath="$PROJECT_DIR$/.vagrant/machines/ci/virtualbox/action_provision" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.vagrant/machines/ci/virtualbox/action_set_name" afterPath="$PROJECT_DIR$/.vagrant/machines/ci/virtualbox/action_set_name" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.vagrant/machines/ci/virtualbox/id" afterPath="$PROJECT_DIR$/.vagrant/machines/ci/virtualbox/id" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.vagrant/machines/ci/virtualbox/index_uuid" afterPath="$PROJECT_DIR$/.vagrant/machines/ci/virtualbox/index_uuid" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.vagrant/machines/ci/virtualbox/private_key" afterPath="$PROJECT_DIR$/.vagrant/machines/ci/virtualbox/private_key" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.vagrant/machines/ci/virtualbox/synced_folders" afterPath="$PROJECT_DIR$/.vagrant/machines/ci/virtualbox/synced_folders" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.vagrant/machines/develop/virtualbox/action_provision" afterPath="$PROJECT_DIR$/.vagrant/machines/develop/virtualbox/action_provision" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.vagrant/machines/develop/virtualbox/action_set_name" afterPath="$PROJECT_DIR$/.vagrant/machines/develop/virtualbox/action_set_name" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.vagrant/machines/develop/virtualbox/id" afterPath="$PROJECT_DIR$/.vagrant/machines/develop/virtualbox/id" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.vagrant/machines/develop/virtualbox/index_uuid" afterPath="$PROJECT_DIR$/.vagrant/machines/develop/virtualbox/index_uuid" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.vagrant/machines/develop/virtualbox/private_key" afterPath="$PROJECT_DIR$/.vagrant/machines/develop/virtualbox/private_key" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.vagrant/machines/develop/virtualbox/synced_folders" afterPath="$PROJECT_DIR$/.vagrant/machines/develop/virtualbox/synced_folders" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/app/Controller/PostsController.php" afterPath="$PROJECT_DIR$/application/app/Controller/PostsController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/features/blog_posts.feature" afterPath="$PROJECT_DIR$/application/features/blog_posts.feature" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/features/steps/blog_new_post_step.php" afterPath="$PROJECT_DIR$/application/features/steps/blog_new_post_step.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/features/steps/blog_posts_step.php" afterPath="$PROJECT_DIR$/application/features/steps/blog_posts_step.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/features/support/hooks.php" afterPath="$PROJECT_DIR$/application/features/support/hooks.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Berksfile" afterPath="$PROJECT_DIR$/Berksfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Berksfile.lock" afterPath="$PROJECT_DIR$/Berksfile.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Vagrantfile" afterPath="$PROJECT_DIR$/Vagrantfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site-cookbooks/mysql/recipes/default.rb" afterPath="$PROJECT_DIR$/site-cookbooks/mysql/recipes/default.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site-cookbooks/phpenv/recipes/default.rb" afterPath="$PROJECT_DIR$/site-cookbooks/phpenv/recipes/default.rb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,31 +35,21 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="Vagrantfile" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Vagrantfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="179">
+              <caret line="82" column="31" lean-forward="false" selection-start-line="82" selection-start-column="31" selection-end-line="82" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="default.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/site-cookbooks/mysql/recipes/default.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="22" column="18" lean-forward="false" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="default.rb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/site-cookbooks/phpenv/recipes/default.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="68" column="33" lean-forward="false" selection-start-line="68" selection-start-column="33" selection-end-line="68" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="grants.sql.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/site-cookbooks/mysql/templates/default/grants.sql.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="329">
+              <caret line="40" column="95" lean-forward="false" selection-start-line="40" selection-start-column="95" selection-end-line="40" selection-end-column="95" />
               <folding />
             </state>
           </provider>
@@ -98,9 +81,14 @@
         <option value="$PROJECT_DIR$/application/features/steps/blog_new_post_step.php" />
         <option value="$PROJECT_DIR$/application/app/Controller/PostsController.php" />
         <option value="$PROJECT_DIR$/application/features/steps/blog_posts_step.php" />
-        <option value="$PROJECT_DIR$/site-cookbooks/mysql/recipes/default.rb" />
         <option value="$PROJECT_DIR$/application/features/blog_posts.feature" />
         <option value="$PROJECT_DIR$/site-cookbooks/phpenv/recipes/default.rb" />
+        <option value="$PROJECT_DIR$/site-cookbooks/my-cnf/templates/default/my.cnf.erb" />
+        <option value="$PROJECT_DIR$/site-cookbooks/my-cnf/attributes/default.rb" />
+        <option value="$PROJECT_DIR$/site-cookbooks/my-cnf/recipes/default.rb" />
+        <option value="$PROJECT_DIR$/Berksfile" />
+        <option value="$PROJECT_DIR$/site-cookbooks/mysql/recipes/default.rb" />
+        <option value="$PROJECT_DIR$/Vagrantfile" />
       </list>
     </option>
   </component>
@@ -165,46 +153,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="site-cookbooks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cakephp-ci-book-sample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cakephp-ci-book-sample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="site-cookbooks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="phpenv" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cakephp-ci-book-sample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cakephp-ci-book-sample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="site-cookbooks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="phpenv" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="recipes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -289,6 +237,94 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="mysql" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="attributes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cakephp-ci-book-sample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cakephp-ci-book-sample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="site-cookbooks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my-cnf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cakephp-ci-book-sample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cakephp-ci-book-sample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="site-cookbooks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my-cnf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cakephp-ci-book-sample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cakephp-ci-book-sample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="site-cookbooks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my-cnf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="recipes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cakephp-ci-book-sample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cakephp-ci-book-sample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="site-cookbooks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my-cnf" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -736,12 +772,12 @@
       <workItem from="1482741265074" duration="6448000" />
       <workItem from="1482754340094" duration="1572000" />
       <workItem from="1482768360803" duration="14437000" />
-      <workItem from="1482849636533" duration="763000" />
+      <workItem from="1482849636533" duration="9161000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23654000" />
+    <option name="totallyTimeSpent" value="32052000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -821,13 +857,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/features/support/hooks.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/app/View/Posts/index.ctp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -1080,31 +1109,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/site-cookbooks/mysql/attributes/default.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/site-cookbooks/mysql/metadata.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site-cookbooks/mysql/templates/default/grants.sql.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1120,6 +1125,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/site-cookbooks/jenkins/recipes/plugin.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site-cookbooks/jenkins/recipes/default.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/site-cookbooks/user-package/recipes/default.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1128,18 +1149,82 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/site-cookbooks/mysql/recipes/default.rb">
+    <entry file="file://$PROJECT_DIR$/site-cookbooks/phpenv/recipes/default.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="22" column="18" lean-forward="false" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+        <state relative-caret-position="194">
+          <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/site-cookbooks/phpenv/recipes/default.rb">
+    <entry file="file://$PROJECT_DIR$/site-cookbooks/my-cnf/templates/default/my.cnf.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="68" column="33" lean-forward="false" selection-start-line="68" selection-start-column="33" selection-end-line="68" selection-end-column="33" />
+        <state relative-caret-position="60">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site-cookbooks/mysql/templates/default/grants.sql.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site-cookbooks/my-cnf/attributes/default.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="35" lean-forward="false" selection-start-line="0" selection-start-column="35" selection-end-line="0" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site-cookbooks/mysql/attributes/default.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site-cookbooks/my-cnf/recipes/default.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="20" lean-forward="false" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Berksfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="49" lean-forward="false" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site-cookbooks/mysql/recipes/default.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="40" column="95" lean-forward="false" selection-start-line="40" selection-start-column="95" selection-end-line="40" selection-end-column="95" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vagrantfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="82" column="31" lean-forward="false" selection-start-line="82" selection-start-column="31" selection-end-line="82" selection-end-column="31" />
           <folding />
         </state>
       </provider>

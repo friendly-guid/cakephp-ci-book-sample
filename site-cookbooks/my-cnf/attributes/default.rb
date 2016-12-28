@@ -1,0 +1,1 @@
+default["mysql"]["charset"] = "utf8"

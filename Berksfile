@@ -12,3 +12,5 @@ cookbook "jenkins", path: "./site-cookbooks/jenkins"
 cookbook "user-package", path: "./site-cookbooks/user-package"
 
 cookbook "mysql", path: "./site-cookbooks/mysql"
+
+cookbook "my-cnf", path: "./site-cookbooks/my-cnf"

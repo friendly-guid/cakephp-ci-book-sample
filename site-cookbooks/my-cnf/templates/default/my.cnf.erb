@@ -1,0 +1,5 @@
+[mysqld]
+character-set-server = <%= node["mysql"]["charset"] %>
+
+[client]
+default-character-set = <%= node["mysql"]["charset"] %>

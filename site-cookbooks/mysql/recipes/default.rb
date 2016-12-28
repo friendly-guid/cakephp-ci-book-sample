@@ -24,12 +24,21 @@ chef_gem "mysql" do
     subscribes :install, "package[libmysql++-dev]", :immediately
 end
 
+
+# MySQLのサービスを有効化して起動する
+service "mysql" do
+    action [:enable, :restart]
+    supports :status => true, :start => true, :stop => true, :restart => true
+    not_if do File.exists?("/var/run/mysqld/mysqld.pid") end
+end
+
+
 %w{
   blog
   test_blog
 }.each do |database| 
   execute "mysql-create-database" do
-      command "/usr/bin/mysqladmin -uroot -p#{node['example']['db']['rootpass']} create #{database}"
+      command "/usr/bin/mysql -uroot -p#{node['example']['db']['rootpass']} -e 'create DATABASE #{database} DEFAULT CHARACTER SET utf8'"
       not_if do
 	      print "----#{database}-----"
           require 'rubygems'

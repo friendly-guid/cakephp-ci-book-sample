@@ -66,9 +66,6 @@ service "nginx" do
   action [:enable, :restart]
 end
 
-# MySQLをUTF8にする /etc/mysql/my.cnf
-
-
 # MySQLのサービスを有効化して起動する
 service "mysql" do
   action [:enable, :restart]
