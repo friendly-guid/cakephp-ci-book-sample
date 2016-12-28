@@ -9,9 +9,6 @@ $steps->Given('/^記事が (\d+) 件登録されている$/', function($world, $
 	Fabricate::create('Post', $num, function($data, $world) {
 		return [
 		'title' => $world->sequence('title', function($i) {
-
-		    echo "タイトル{$i}\n";
-
 			return "タイトル{$i}";
 		})
 		];
@@ -34,10 +31,6 @@ $steps->Then('/^ページ (\d+) に投稿が新しい順で (\d+) 件表示さ�
 		$expect = array_chunk(array_map(function($i) {
 			return "タイトル{$i}";
 		}, range($world->getModel('Post')->find('count'), 1)), 5)[$page-1];
-
-		print_r($expect);
-		print_r("-----------\n");
-		print_r($titles);
 
 		assertEquals($expect, $titles);
 });

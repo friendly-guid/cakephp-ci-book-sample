@@ -1,0 +1,1 @@
+{"virtualbox":{"/vagrant":{"guestpath":"/vagrant","hostpath":"/Users/tomoyuki-u/workspace/cakephp-ci-book-sample","disabled":false,"__vagrantfile":true},"vagrant-cache":{"id":"vagrant-cache","guestpath":"/tmp/vagrant-cache","hostpath":"/Users/tomoyuki-u/.vagrant.d/cache/opscode-ubuntu-14.04","disabled":false,"__vagrantfile":true}}}
