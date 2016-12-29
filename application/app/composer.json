@@ -22,6 +22,7 @@
     	"pear/pear_exception": "@dev",
         "sizuhiko/Bdd": "dev-master",
         "behat/mink-goutte-driver": "*",
-        "sizuhiko/fabricate": "1.2.0"
+        "sizuhiko/fabricate": "1.2.0",
+        "phing/phing": "2.8.2"
     }
 }
