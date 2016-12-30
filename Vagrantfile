@@ -67,7 +67,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
       chef.json = {
         nginx: {
           docroot: {
-            path: "/var/lib/jenkins/jobs/blogapp/workspace/app/webroot",
+            path: "/var/lib/jenkins/workspace/blogapp/app/webroot",
           },
           default: { 
             fastcgi_params: { CAKE_ENV: "development" }
