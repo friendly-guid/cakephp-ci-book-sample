@@ -23,6 +23,10 @@
         "sizuhiko/Bdd": "dev-master",
         "behat/mink-goutte-driver": "*",
         "sizuhiko/fabricate": "1.2.0",
-        "phing/phing": "2.8.2"
+        "phing/phing": "2.8.2",
+        "cakephp/cakephp-codesniffer": "0.1.27",
+        "phpmd/phpmd": "2.0.0",
+        "sebastian/phpcpd": "2.0.1",
+        "squizlabs/php_codesniffer": "1.5.3"
     }
 }
