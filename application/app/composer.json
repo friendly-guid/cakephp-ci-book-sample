@@ -15,7 +15,10 @@
         "guzzle/guzzle": "~3.9",
         "guzzlehttp/guzzle": "^6.2",
         "cakedc/migrations": "2.3.2",
-        "slywalker/boost_cake": "*"
+        "slywalker/boost_cake": "*",
+        "cakedc/users": "2.*",
+        "cakedc/utils": "*",
+        "cakedc/search": "*"
     },
     "require-dev": {
     	"pear/console_commandline": "@dev",
