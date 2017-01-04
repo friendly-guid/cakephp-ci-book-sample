@@ -9,9 +9,9 @@ class PostsController extends AppController{
 		'Form' => ['className' => 'BoostCake.BoostCakeForm'],
 	];
 
-	public function beforeFilter(){
-	    parent::beforeFilter();
-	    $this->Auth->allow('index');
+    public function beforeFilter() {
+        parent::beforeFilter();
+        $this->Auth->allow('index');
     }
 	
 	public function index(){

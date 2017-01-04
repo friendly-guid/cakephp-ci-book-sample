@@ -4,17 +4,6 @@ Behat\Behat\Context\Step\When,
 Behat\Behat\Context\Step\Then;
 App::uses('Fabricate', 'Fabricate.Lib');
 $steps->Given('/^"([^"]*)" としてログインしている$/', function($world, $user) {
-    $users = ['会員' => [
-        'email' => 'example@examle.comm',
-        'password' => 'secretkey'
-    ]];
-
-    return [
-        new Given('"'.Router::url(['controller' => 'app_users', 'action' => 'login']).'" を表示している'),
-        new When('"Email" フィールドに "' . $users[$user]['email'] . '" と入力する'),
-		new When('"Password" フィールドに "' . $users[$user]['password'] . '" と入力する'),
-		new When('"Submit" ボタンをクリックする'),
-    ];
 });
 $steps->Given('/^記事が (\d+) 件登録されている$/', function($world, $num) {
 	Fabricate::create('Post', $num, function($data, $world) {

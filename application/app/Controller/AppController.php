@@ -25,15 +25,16 @@ class AppController extends Controller {
 
     public $components = ['Session', 'Auth'];
 
-    public function beforeFilter(){
+    public function beforeFilter() {
         parent::beforeFilter();
         $this->Auth->fields = ['username' => 'email', 'password' => 'password'];
-        $this->Auth->loginAction = ['controller' => 'app_users', 'action' => 'login'];
+        $this->Auth->loginAction = ['controller' => 'users', 'action' => 'login', 'plugin' => 'users'];
         $this->Auth->loginRedirect = $this->Session->read('Auth.redirect');
         $this->Auth->logoutRedirect = '/';
         $this->Auth->authError = __d('users', 'このURLにアクセスするにはログインが必要です');
         $this->Auth->autoRedirect = true;
         $this->Auth->userModel = 'User';
-        $this->Auth->userScope = ['OR' => ['AND' => ['User.active' => 1, 'User.email_varified' => 1]]];
+        $this->Auth->userScope = ['OR' => ['AND' => ['User.active' => 1, 'User.email_verified' => 1]]];
     }
+
 }
