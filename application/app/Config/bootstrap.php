@@ -68,7 +68,7 @@ include dirname(__FILE__) . DS . 'bootstrap' . DS . 'environments.php';
  */
 CakePlugin::load('Migrations');
 CakePlugin::load('BoostCake');
-CakePlugin::load('Users');
+CakePlugin::load('Users', array('routes' => null));
 CakePlugin::load('Utils');
 CakePlugin::load('Search');
 
@@ -92,6 +92,9 @@ Configure::write('Dispatcher.filters', array(
 	'AssetDispatcher',
 	'CacheDispatcher'
 ));
+
+Configure::write('Users.emailConfig', 'default');
+Configure::write('App.defaultEmail','example@example.comm');
 
 /**
  * Configures default file logging options
